@@ -24,7 +24,15 @@
 
 ## Chatops
 
- 使用bearychat+hubot搭建了一个chatops方式. 将一些操作代理给机器人去做.
+chatops是什么呢,看附图
+
+![](images/chatops.jpg)
+
+就是通过聊天app给机器人下发命令,机器人执行并返回.
+
+
+
+ 下面就是使用bearychat+hubot搭建了一个chatops方式. 将一些操作代理给机器人去做.
 
 ![](images/bot.jpg)
 
@@ -177,7 +185,15 @@ module.exports = (robot) ->
 
 
 
+我这里使用了[apistar](https://github.com/encode/apistar)搭建了一个restapi服务. 
 
+
+
+## 总结
+
+通过一段时间使用`chatops`方式运维, 确实方便了很多. 而且还可以手机随时操作.
+
+大概流程就是这样,实际使用还得看怎么去合理的使用来更好的发挥这种运维方式和提升效率.
 
 
 
